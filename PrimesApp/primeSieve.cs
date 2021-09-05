@@ -19,8 +19,8 @@ namespace PrimesApp
             {
                 isPrime[i] = true;
             }
-
-            for (int i = 2; i < size; ++i)
+            // Eliminates all multiples of primes
+            for (int i = 2; i < Math.Sqrt(size); ++i)
             {
                 for (int j = i + 1; j < size; ++j)
                 {
@@ -35,7 +35,7 @@ namespace PrimesApp
                 {
                     ++count;
                     builder.Append($"{i, 10}");
-                    if (count > 9 && count % 10 == 0) { builder.AppendLine(); }
+                    if (count > 8 && count % 9 == 0) { builder.AppendLine(); }
                 }
             }
             listOfPrimes = builder.ToString();
