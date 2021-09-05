@@ -12,22 +12,25 @@ namespace PrimesApp
         public static int Calculate(int size)
         { 
             bool[] isPrime = new bool[size];
-            StringBuilder builder = new();
             
+            StringBuilder builder = new();
+            int count = 0;
 
             for (int i = 0; i < size; ++i)
             {
                 isPrime[i] = true;
             }
             // Eliminates all multiples of primes
-            for (int i = 2; i < Math.Sqrt(size); ++i)
+            for (int i = 2; i * i < size; ++i)
             {
-                for (int j = i + 1; j < size; ++j)
+                if (isPrime[i])
                 {
-                    if (isPrime[i] && j % i == 0) { isPrime[j] = false; }
-                }
+                    for (int j = i + 1; j < size; ++j)
+                    {
+                        if (j % i == 0) { isPrime[j] = false; }
+                    }
+                }              
             }
-            int count = 0;
 
             for (int i = 1; i < size; ++i)
             {
