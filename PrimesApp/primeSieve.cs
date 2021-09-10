@@ -25,9 +25,9 @@ namespace PrimesApp
             {
                 if (isPrime[i])
                 {
-                    for (int j = i + 1; j < size; ++j)
+                    for (int j = i * 2; j < size; j += i)
                     {
-                        if (j % i == 0) { isPrime[j] = false; }
+                        { isPrime[j] = false; }
                     }
                 }              
             }
