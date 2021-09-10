@@ -121,7 +121,7 @@ namespace PrimesApp
             this.answerTextRight.AutoSize = true;
             this.answerTextRight.Font = new System.Drawing.Font("Noto Sans", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.answerTextRight.ForeColor = System.Drawing.Color.LightCyan;
-            this.answerTextRight.Location = new System.Drawing.Point(469, 314);
+            this.answerTextRight.Location = new System.Drawing.Point(490, 314);
             this.answerTextRight.Name = "answerTextRight";
             this.answerTextRight.Size = new System.Drawing.Size(0, 27);
             this.answerTextRight.TabIndex = 5;
