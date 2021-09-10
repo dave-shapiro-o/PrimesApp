@@ -11,12 +11,12 @@ namespace PrimesApp
         public static string listOfPrimes;
         public static int Calculate(int size)
         { 
-            bool[] isPrime = new bool[size];
-            
+            bool[] isPrime = new bool[size];            
             StringBuilder builder = new();
             int count = 0;
-
-            for (int i = 0; i < size; ++i)
+            //only set odd numbers and 2 to true initially;
+            isPrime[2] = true;
+            for (int i = 1; i < size; i += 2)
             {
                 isPrime[i] = true;
             }
