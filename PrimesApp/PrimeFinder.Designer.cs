@@ -99,31 +99,31 @@ namespace PrimesApp
             // resultLabel
             // 
             this.resultLabel.AutoSize = true;
-            this.resultLabel.Font = new System.Drawing.Font("Noto Sans", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.resultLabel.Font = new System.Drawing.Font("Noto Sans", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.resultLabel.ForeColor = System.Drawing.Color.Red;
             this.resultLabel.Location = new System.Drawing.Point(309, 297);
             this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(0, 55);
+            this.resultLabel.Size = new System.Drawing.Size(0, 49);
             this.resultLabel.TabIndex = 4;
             // 
             // answerTextLeft
             // 
             this.answerTextLeft.AutoSize = true;
-            this.answerTextLeft.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.answerTextLeft.Font = new System.Drawing.Font("Noto Sans", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.answerTextLeft.ForeColor = System.Drawing.Color.LightCyan;
             this.answerTextLeft.Location = new System.Drawing.Point(165, 314);
             this.answerTextLeft.Name = "answerTextLeft";
-            this.answerTextLeft.Size = new System.Drawing.Size(0, 33);
+            this.answerTextLeft.Size = new System.Drawing.Size(0, 27);
             this.answerTextLeft.TabIndex = 5;
             // 
             // answerTextRight
             // 
             this.answerTextRight.AutoSize = true;
-            this.answerTextRight.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.answerTextRight.Font = new System.Drawing.Font("Noto Sans", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.answerTextRight.ForeColor = System.Drawing.Color.LightCyan;
             this.answerTextRight.Location = new System.Drawing.Point(469, 314);
             this.answerTextRight.Name = "answerTextRight";
-            this.answerTextRight.Size = new System.Drawing.Size(0, 33);
+            this.answerTextRight.Size = new System.Drawing.Size(0, 27);
             this.answerTextRight.TabIndex = 5;
             // 
             // showButton
