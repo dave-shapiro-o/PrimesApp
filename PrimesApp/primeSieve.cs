@@ -38,7 +38,7 @@ namespace PrimesApp
                 {
                     ++count;
                     builder.Append($"{i, 10}");
-                    if (count > 8 && count % 9 == 0) { builder.AppendLine(); }
+                    if (count > 7 && count % 8 == 0) { builder.AppendLine(); }
                 }
             }
             listOfPrimes = builder.ToString();
